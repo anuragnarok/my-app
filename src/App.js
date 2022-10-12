@@ -1,6 +1,7 @@
 
 import BlueButtonComponent from './components/BlueButtonComponent';
 import ButtonComponent from './components/ButtonComponent';
+import HooksComponent from './components/HooksComponent';
 
 function App() {
   let name = 'Anurag'
@@ -13,7 +14,8 @@ function App() {
      <hr/>
      <ButtonComponent label={'firstButton'} col="red"/>
      <ButtonComponent label={'secondButton'} col="blue"/>
-
+      <hr/> 
+      <HooksComponent/>
     </div>
   );
 }
