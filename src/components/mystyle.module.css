@@ -1,0 +1,21 @@
+#style {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+
+  #button1 {
+    float: left;
+  }
+
+  #button2 {
+    float: right;
+  }
+
+  #blueButton {
+    /* padding: 1rem; */
+  }
+
+  #firstlabel {
+    padding: 1rem;
+  }

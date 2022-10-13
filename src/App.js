@@ -10,11 +10,15 @@ function App() {
      {name}
      <h1>My First Component</h1>
      <hr/>
+     <h3>Solution 1.</h3>
      <BlueButtonComponent/>
      <hr/>
+     <h3>Solution 2.</h3>
      <ButtonComponent label={'firstButton'} col="red"/>
      <ButtonComponent label={'secondButton'} col="blue"/>
-      <hr/> 
+      <hr/> <br/>
+      <h3>SOlution 3.</h3>
+      <br/>
       <HooksComponent/>
     </div>
   );

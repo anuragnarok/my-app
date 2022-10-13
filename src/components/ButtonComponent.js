@@ -1,14 +1,14 @@
 import React from 'react'
 
-function ButtonComponent({label,col}) {
+function ButtonComponent(props) {
 
 
   return (
-    <div>
+    <div> 
         <div>
             <button 
             style={{color:'white',
-            backgroundColor:col}}>{label}</button>
+            backgroundColor:props.col}}>{props.label}</button>
         </div>
     </div>
   )

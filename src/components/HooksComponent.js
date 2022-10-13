@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import styles from './mystyle.module.css';
 function HooksComponent() {
   const [count, setCount] = useState(2);
   const decrement = () => {
@@ -10,31 +10,35 @@ function HooksComponent() {
     let incCount = count + 1;
     setCount(incCount);
   };
+  
   return (
-    <div>
-      <div
-        style={{
-          textAlign: "left",
-        }}
-      >
-        <button onClick={() => decrement()}>- Decrement</button>
-      </div>
+    <div  id={styles.style}> 
+      
+      
 
-      <div
-        style={{
-          textAlign: "center",
-        }}
-      >
-        <label>count: {count} </label>
-      </div>
+     
+      
+        <button 
+        id={styles.button1}
+        onClick={() => decrement()}>- Decrement</button>
+      
 
-      <div
+      
+        <label 
+        id="label"
+        >count: {count} </label>
+      
+
+     
+       
+        <button 
+        id={styles.button2}
         style={{
           textAlign: "right",
         }}
-      >
-        <button onClick={() => increment()}>+ Increment</button>
-      </div>
+        onClick={() => increment()}>+ Increment</button>
+      
+      
     </div>
   );
 }
