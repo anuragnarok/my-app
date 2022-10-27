@@ -1,0 +1,35 @@
+.mainbox {
+    display: flex;
+    border: 2px solid black;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.secondbox{
+    display: flex;
+    border: 2px solid rgb(73, 19, 158);
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+    height: 500px;
+    
+}
+.secondbox p {
+    display: block;
+    /* margin:auto; */
+    /* width: 10px; */
+    padding-left: 5px;
+    /* align-self: flex-start; */
+}
+
+.dataset
+{
+    display: flex;
+    border-bottom: 2px solid rgb(73, 19, 158);
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}

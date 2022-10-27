@@ -1,5 +1,6 @@
 
 import BlueButtonComponent from './components/BlueButtonComponent';
+import BoxComponent from './components/BoxComponent';
 import ButtonComponent from './components/ButtonComponent';
 import HooksComponent from './components/HooksComponent';
 
@@ -20,6 +21,8 @@ function App() {
       <h3>SOlution 3.</h3>
       <br/>
       <HooksComponent/>
+      <hr/>
+      <BoxComponent/>
     </div>
   );
 }
